@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "armor-extras",
+	"version": "${version}",
+	"name": "Armor Extras",
+	"description": "This is a Mod about Making new Armors.",
+	"authors": [
+		"Maxigames"
+	],
+	"contact": {
+
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/armor-extras/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.maxigames.armor_extras.ArmorExtras"
+		],
+		"fabric-datagen": [
+			"net.maxigames.armor_extras.ArmorExtrasDataGenerator"
+		],
+		"client": [
+			"net.maxigames.armor_extras.ArmorExtrasClient"
+		]
+	},
+	"mixins": [
+		"armor-extras.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
