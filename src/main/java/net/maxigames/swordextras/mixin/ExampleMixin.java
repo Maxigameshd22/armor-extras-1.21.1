@@ -1,4 +1,4 @@
-package net.maxigames.armor_extras.mixin;
+package net.maxigames.swordextras.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,8 +1,8 @@
-package net.maxigames.armor_extras;
+package net.maxigames.swordextras;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class ArmorExtrasClient implements ClientModInitializer {
+public class SwordExtrasClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

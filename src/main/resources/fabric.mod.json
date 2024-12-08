@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "armor-extras",
+	"id": "sword-extras",
 	"version": "${version}",
-	"name": "Armor Extras",
-	"description": "This is a Mod about Making new Armors.",
+	"name": "Sword Extras",
+	"description": "This is a Mod about Making new Swords.",
 	"authors": [
 		"Maxigames"
 	],
@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/armor-extras/icon.png",
+	"icon": "assets/sword-extras/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.maxigames.armor_extras.ArmorExtras"
+			"net.maxigames.swordextras.SwordExtras"
 		],
 		"fabric-datagen": [
-			"net.maxigames.armor_extras.ArmorExtrasDataGenerator"
+			"net.maxigames.swordextras.SwordExtrasDataGenerator"
 		],
 		"client": [
-			"net.maxigames.armor_extras.ArmorExtrasClient"
+			"net.maxigames.swordextras.SwordExtrasClient"
 		]
 	},
 	"mixins": [

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.maxigames.armor_extras.mixin",
+	"package": "net.maxigames.swordextras.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

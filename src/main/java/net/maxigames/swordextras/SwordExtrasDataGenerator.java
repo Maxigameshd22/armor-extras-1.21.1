@@ -1,9 +1,9 @@
-package net.maxigames.armor_extras;
+package net.maxigames.swordextras;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class ArmorExtrasDataGenerator implements DataGeneratorEntrypoint {
+public class SwordExtrasDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 
